@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <section class="area_login">
+        <div class="login">
+            <div>
+                <img src="image/logo_ifce.png" alt="logo_ifce">
+            </div>
+            
+            <h2><strong>Cadastre-se</strong></h2><br>
+            
+            <form method="post">
+                <div class="dados">
+                    <label class="nome" for="nome">Nome completo</label><br>
+                    <input type="text" name="nome" placeholder="Insira seu nome">
+                </div><br>
+
+                <div class="matricula">
+                    <label for="matricula">Matrícula</label>
+                    <input type="text" name="matricula" placeholder="Insira sua matrícula">
+                </div><br>
+
+                <div class="dados1">
+                    <label for="data">Data de nascimento</label>
+                    <input type="date" id="data" name="data">
+
+                    <div class="estado">
+                        <label for="estado">Estado</label><br>
+                        <select id="estado" name="estado">
+                            <option value="AC">Acre</option>
+                            <option value="AL">Alagoas</option>
+                            <option value="AP">Amapá</option>
+                            <option value="AM">Amazonas</option>
+                            <option value="BA">Bahia</option>
+                            <option value="CE">Ceará</option>
+                            <option value="DF">Distrito Federal</option>
+                            <option value="ES">Espírito Santo</option>
+                            <option value="GO">Goiás</option>
+                            <option value="MA">Maranhão</option>
+                            <option value="MT">Mato Grosso</option>
+                            <option value="MS">Mato Grosso do Sul</option>
+                            <option value="MG">Minas Gerais</option>
+                            <option value="PA">Pará</option>
+                            <option value="PB">Paraíba</option>
+                            <option value="PR">Paraná</option>
+                            <option value="PE">Pernambuco</option>
+                            <option value="PI">Piauí</option>
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="RN">Rio Grande do Norte</option>
+                            <option value="RS">Rio Grande do Sul</option>
+                            <option value="RO">Rondônia</option>
+                            <option value="RR">Roraima</option>
+                            <option value="SC">Santa Catarina</option>
+                            <option value="SP">São Paulo</option>
+                            <option value="SE">Sergipe</option>
+                            <option value="TO">Tocantins</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="genero">
+                    <legend>Selecione o gênero:</legend>
+                    <input type="radio" id="genero-masculino" name="genero" value="masculino">
+                    <label for="genero-masculino">Masculino</label>
+                    <input type="radio" id="genero-feminino" name="genero" value="feminino">
+                    <label for="genero-feminino">Feminino</label>
+                    <input type="radio" id="genero-outro" name="genero" value="outro">
+                    <label for="genero-outro">Outro</label>
+                </div>
+
+            <div class="dados">
+                <div class="dados2">
+                    <label class="email" for="email">Email</label>
+                    <input type="text" name="email" placeholder="email@example.com">
+                </div><br>
+                <div class="dados3">
+                    <label class="senha" for="senha">Senha</label>
+                    <input type="password" name="senha" placeholder="Insira sua senha"><br>
+                </div>
+            </div>
+            </form>
+        
+
+            <footer>
+                <div class="termo">
+                    <label for="aceito-termos">Eu aceito os termos e condições.</label>
+                    <input type="checkbox" id="aceito-termos" name="aceitoTermos">
+                </div><br>
+
+                <div class="botao">
+                <input type="submit" name="acao" value="Cadastrar"></a><br>
+                <p>Já possui conta? <a href="index.html">Fazer login</p>
+                </div>
+
+            </footer>
+        </div>    
+
+</body>
+</html>
